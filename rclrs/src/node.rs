@@ -1,5 +1,5 @@
-use std::ffi::{CString, NulError};
 use std::convert::TryInto;
+use std::ffi::{CString, NulError};
 use thiserror::Error;
 
 pub struct Node {
