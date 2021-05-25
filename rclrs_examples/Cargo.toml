@@ -13,5 +13,4 @@ name = "rclrs_publisher"
 path = "src/rclrs_publisher.rs"
 
 [dependencies]
-failure = "0.1.5"
 rclrs = { path = "../rclrs" }
