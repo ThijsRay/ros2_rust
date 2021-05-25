@@ -41,6 +41,7 @@ fn main() {
         .dynamic_link_require_all(true)
         .translate_enum_integer_types(true)
         .generate_comments(false)
+        .size_t_is_usize(true)
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
