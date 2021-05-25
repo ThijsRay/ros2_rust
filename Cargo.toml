@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "rclrs",
+    "rclrs_common",
+]
