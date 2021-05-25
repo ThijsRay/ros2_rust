@@ -8,3 +8,4 @@ edition = "2018"
 rclrs_common = { path = "../rclrs_common" }
 rcl_sys = { path = "../rcl_sys" }
 thiserror = "1.0"
+parking_lot = "0.11"
