@@ -1,6 +1,6 @@
 use crate::error::{RclResult, ToRclResult};
 use crate::qos::QoSProfile;
-use crate::rcl_bindings::*;
+use rcl_sys::*;
 use crate::{Context, ContextHandle, Handle};
 use std::cell::{Ref, RefCell, RefMut};
 use std::ffi::CString;

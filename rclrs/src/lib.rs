@@ -3,14 +3,12 @@ pub mod error;
 pub mod node;
 pub mod qos;
 
-mod rcl_bindings;
-
 pub use self::context::*;
 pub use self::error::*;
 pub use self::node::*;
 pub use self::qos::*;
 
-use self::rcl_bindings::*;
+use rcl_sys::*;
 use std::ops::{Deref, DerefMut};
 
 pub trait Handle<T> {

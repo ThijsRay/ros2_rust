@@ -2,4 +2,5 @@
 members = [
     "rclrs",
     "rclrs_common",
+    "rcl_sys"
 ]
