@@ -7,3 +7,4 @@ edition = "2018"
 [dependencies]
 rclrs_common = { path = "../rclrs_common" }
 rcl_sys = { path = "../rcl_sys" }
+thiserror = "1.0"
