@@ -33,7 +33,6 @@ pub fn spin(node: &Node) -> RclResult {
     Ok(())
 }
 
-
 /// Main function for waiting.
 ///
 /// Following is a schematic representation of the interation of [`spin_once`] with ROS RCL FFI
@@ -72,7 +71,6 @@ pub fn spin(node: &Node) -> RclResult {
 ///
 ///
 pub fn spin_once(node: &Node, timeout: i64) -> RclResult {
-
     // get an rcl_wait_set_t - All NULLs
     let mut wait_set_handle = unsafe { rcl_get_zero_initialized_wait_set() };
 

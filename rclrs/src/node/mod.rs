@@ -1,7 +1,7 @@
 use crate::error::{RclResult, ToRclResult};
 use crate::qos::QoSProfile;
-use rcl_sys::*;
 use crate::{Context, ContextHandle, Handle};
+use rcl_sys::*;
 use std::cell::{Ref, RefCell, RefMut};
 use std::ffi::CString;
 use std::rc::{Rc, Weak};

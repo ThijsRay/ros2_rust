@@ -121,8 +121,8 @@ pub mod traits {
 
     pub trait Message: Any {
         fn get_native_message(&self) -> uintptr_t;
-        fn destroy_native_message(&self, message_handle: uintptr_t) -> ();
-        fn read_handle(&mut self, message_handle: uintptr_t) -> ();
+        fn destroy_native_message(&self, message_handle: uintptr_t);
+        fn read_handle(&mut self, message_handle: uintptr_t);
     }
 
     downcast!(dyn Message);
@@ -130,6 +130,6 @@ pub mod traits {
     pub trait MessageDefinition<T>: Message {
         fn get_type_support() -> uintptr_t;
         fn static_get_native_message(message: &T) -> uintptr_t;
-        fn static_destroy_native_message(message_handle: uintptr_t) -> ();
+        fn static_destroy_native_message(message_handle: uintptr_t);
     }
 }
