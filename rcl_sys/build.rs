@@ -35,7 +35,7 @@ fn main() {
         .default_enum_style(EnumVariation::Rust {
             non_exhaustive: false,
         })
-        .default_alias_style(AliasVariation::NewTypeDeref)
+        .default_alias_style(AliasVariation::TypeAlias)
         .derive_copy(false)
         .rustfmt_bindings(true)
         .dynamic_link_require_all(true)
