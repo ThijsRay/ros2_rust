@@ -73,7 +73,7 @@ pub trait SubscriptionBase {
                 handle as *const _,
                 message_handle as *mut _,
                 std::ptr::null_mut(),
-                std::ptr::null_mut()
+                std::ptr::null_mut(),
             )
         };
 
@@ -150,7 +150,7 @@ where
                 handle as *const _,
                 message_handle as *mut _,
                 std::ptr::null_mut(),
-                std::ptr::null_mut()
+                std::ptr::null_mut(),
             )
         };
         message.read_handle(message_handle);
