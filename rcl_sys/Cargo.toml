@@ -1,0 +1,8 @@
+[package]
+name = "rcl_sys"
+version = "0.1.0"
+authors = ["Thijs Raymakers <thijs@raymakers.nl>"]
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.58"

@@ -1,4 +1,4 @@
-use crate::rcl_bindings::*;
+use rcl_sys::*;
 pub use rclrs_common::error::RCLStatusCode as RclError;
 
 /// Error code that ROS nodes written in Rust should be returning from `main`

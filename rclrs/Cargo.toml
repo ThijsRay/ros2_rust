@@ -5,8 +5,5 @@ authors = ["Esteve Fernandez <esteve@apache.org>"]
 edition = "2018"
 
 [dependencies]
-libc = "0.2.43"
-failure = "0.1.5"
-
-[build-dependencies]
-bindgen = "0.45.0"
+rclrs_common = { path = "../rclrs_common" }
+rcl_sys = { path = "../rcl_sys" }
