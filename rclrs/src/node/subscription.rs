@@ -47,7 +47,7 @@ impl Drop for SubscriptionHandle {
 pub trait SubscriptionBase {
     fn handle(&self) -> &SubscriptionHandle;
     fn create_message(&self) -> Box<dyn rclrs_common::traits::Message>;
-    fn callback_fn(&self, message: Box<dyn rclrs_common::traits::Message>) -> ();
+    fn callback_fn(&self, message: Box<dyn rclrs_common::traits::Message>);
 
     /// Ask RMW for the data
     ///

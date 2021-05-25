@@ -67,7 +67,7 @@ impl Context {
     }
 
     pub fn create_node(&self, node_name: &str) -> RclResult<Node> {
-        Ok(Node::new(node_name, self)?)
+        Node::new(node_name, self)
     }
 }
 
